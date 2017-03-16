@@ -1,0 +1,28 @@
+{
+    "idStore":"19263",
+
+    "apiPostData":{
+        "activeFlag": true,
+        "lastName": "",
+        "firstName": null,
+        "degree": "",
+        "isPro": false,
+        "purpose": "POST",
+        "channel": "AD",
+        "source": "I",
+        "phone": "",
+        "numSMS": null,
+        "optionSMS": {
+        "SMS_reservation": "NONE",
+        "SMS_registration": "NONE",
+        "SMS_yourTurn": "NONE"
+        },
+        "idQueueType": "0",
+        "counselor": {
+        "cuid": "bcld6525",
+        "fullName": "Sami Saihi",
+        "inStore": true
+        }
+    }
+
+}

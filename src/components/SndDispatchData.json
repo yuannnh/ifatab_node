@@ -1,0 +1,45 @@
+[
+
+    {
+        "name":"mobile",
+        "description":"description mobile",
+        "state":"PAR",
+        "idQueueType":"1"
+    },
+    {
+        "name":"TV/Box",
+        "description":"description TV/Box",
+        "state":"PAR",
+        "idQueueType":"2"
+    },
+    {
+        "name":"RDV",
+        "description":"description RDV",
+        "state":"PAR",
+        "idQueueType":"3"
+    },
+    {
+        "name":"conseil",
+        "description":"description conseil",
+        "state":"PAR",
+        "idQueueType":"4"
+    },
+    {
+        "name":"mobile",
+        "description":"description mobile",
+        "state":"PRO",
+        "idQueueType":"5"
+    },
+    {
+        "name":"TV/Box",
+        "description":"description TV/Box",
+        "state":"PRO",
+        "idQueueType":"6"
+    },
+    {
+        "name":"RDV",
+        "description":"description RDV",
+        "state":"PRO",
+        "idQueueType":"7"
+    }
+]

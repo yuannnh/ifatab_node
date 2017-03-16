@@ -1,0 +1,1134 @@
+---
+layout: default
+title: Boostwatch
+slug: boostwatch
+lead: ""
+---
+
+
+{% include boostwatch/modal.html %}
+{% include boostwatch/tableSorter.html %}
+{% include boostwatch/bulletPoint.html %}
+{% include boostwatch/local.html %}
+{% include boostwatch/navTab.html %}
+{% include boostwatch/accordion.html %}
+{% include boostwatch/ofooter.html %}
+{% include boostwatch/stepbar.html %}
+
+
+
+<!-- Navbar
+      ================================================== -->
+      <div class="bs-docs-section clearfix">
+          <h1 class="page-header" id="navbar">Navbar<a class="doc-link" href="../components/#navbar" title="go to navbar documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+            <div class="bs-component">
+              <div class="navbar navbar-default">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-respnsive-collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Active</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret" aria-hidden="true"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a aria-haspopup="true" href="#collapseSearchBar" data-toggle="collapse" class="icon" aria-expanded="false" aria-controls="collapseSearchBar">
+                            <span class="sr-only">open search bar</span>
+                            <span class="icon-search" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div style="" role="search" aria-expanded="true" class="search-bar collapse in" id="collapseSearchBar">
+                <div class="container-fluid">
+                    <form class="form-inline" role="search" action="#">
+                        <div class="form-group">
+                            <label class="sr-only" for="search_btn">search bar</label>
+                            <input id="search_btn" class="form-control" type="text">
+                        </div>
+                        <button type="submit" class="btn btn-inverse btn-primary">Search</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+          </div>
+
+      <!-- Buttons
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="buttons">Buttons<a class="doc-link" href="../css/#buttons" title="go to buttons documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+        <div class="row" id="buttons_default">
+          <h2>Default</h2>
+              <p class="bs-component">
+                <button type="button" class="btn btn-default">Submit</button>
+                <button type="button" class="btn btn-info">Submit</button>
+                <button type="button" class="btn btn-primary">Buy now</button>
+                <button type="button" class="btn btn-success">Save</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+              </p>
+          <h2>Hover</h2>
+              <p class="bs-component">
+                <button type="button" class="btn hover btn-default">Submit</button>
+                <button type="button" class="btn hover btn-info">Submit</button>
+                <button type="button" class="btn hover btn-primary">Buy now</button>
+                <button type="button" class="btn hover btn-success">Save</button>
+                <button type="button" class="btn hover btn-danger">Delete</button>
+              </p>
+          <h2>Pressed</h2>
+              <p class="bs-component">
+                <button type="button" class="btn active btn-default">Submit</button>
+                <button type="button" class="btn active btn-info">Submit</button>
+                <button type="button" class="btn active btn-primary">Buy now</button>
+                <button type="button" class="btn active btn-success">Save</button>
+                <button type="button" class="btn active btn-danger">Delete</button>
+              </p>
+          <h2>Disabled</h2>
+
+              <p class="bs-component">
+
+                <button type="button" class="btn disabled btn-default" disabled="disabled">Submit</button>
+                <button type="button" class="btn disabled btn-info" disabled="disabled">Submit</button>
+                <button type="button" class="btn disabled btn-primary" disabled="disabled">Buy now</button>
+                <button type="button" class="btn disabled btn-success" disabled="disabled">Save</button>
+                <button type="button" class="btn disabled btn-danger" disabled="disabled">Delete</button>
+              </p>
+        </div>
+         <div class="row" id="buttons_inverse">
+
+          <h2>Default</h2>
+              <p class="bs-component">
+                <button type="button" class="btn btn-inverse btn-info">Submit</button>
+                <button type="button" class="btn btn-inverse btn-default">Submit</button>
+                <button type="button" class="btn btn-inverse btn-primary">Buy now</button>
+                <button type="button" class="btn btn-inverse btn-success">Save</button>
+                <button type="button" class="btn btn-inverse btn-danger">Delete</button>
+              </p>
+          <h2>Hover</h2>
+              <p class="bs-component">
+                <button type="button" class="btn btn-inverse hover btn-info">Submit</button>
+                <button type="button" class="btn btn-inverse hover btn-default">Submit</button>
+                <button type="button" class="btn btn-inverse hover btn-primary">Buy now</button>
+                <button type="button" class="btn btn-inverse hover btn-success">Save</button>
+                <button type="button" class="btn btn-inverse hover btn-danger">Delete</button>
+              </p>
+          <h2>Pressed</h2>
+              <p class="bs-component">
+                <button type="button" class="btn btn-inverse active btn-info">Submit</button>
+                <button type="button" class="btn btn-inverse active btn-default">Submit</button>
+                <button type="button" class="btn btn-inverse active btn-primary">Buy now</button>
+                <button type="button" class="btn btn-inverse active btn-success">Save</button>
+                <button type="button" class="btn btn-inverse active btn-danger">Delete</button>
+              </p>
+          <h2>Disabled</h2>
+
+              <p class="bs-component">
+
+                <button type="button" class="btn btn-inverse disabled btn-info" disabled="disabled">Submit</button>
+                <button type="button" class="btn btn-inverse disabled btn-default" disabled="disabled">Submit</button>
+                <button type="button" class="btn btn-inverse disabled btn-primary" disabled="disabled">Buy now</button>
+                <button type="button" class="btn btn-inverse disabled btn-success" disabled="disabled">Save</button>
+                <button type="button" class="btn btn-inverse disabled btn-danger" disabled="disabled">Delete</button>
+              </p>
+         </div>
+        <div class="row">
+                <h2>Sizes</h2>
+                    <p class="bs-component">
+                      <button type="button" class="btn btn-default btn-lg">Large button</button>
+                      <button type="button" class="btn btn-default">Default button</button>
+                      <button type="button" class="btn btn-default btn-sm">Small button</button>
+                      <button type="button" class="btn btn-default btn-xs">Mini button</button>
+                    </p>
+        </div>
+    </div>
+
+    <!-- Toggle switches
+    =================================================== -->
+    <div class="bs-docs-section">
+      <h1 class="page-header" id="toggle">Toggle and switches<a class="doc-link" href="../components/#toggles" title="go to toggle and switches documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+      <h2>Switches</h2>
+      <div style="margin-left: 10px;">
+        <div class="form-group toggle row">
+        <label for="checkbox1" class="col-md-3 col-xs-8" id="label-wifi-1">WiFi</label>
+        <input class="checkbox sr-only" id="checkbox1" type="checkbox" checked aria-labelledby="label-wifi-1 label-wifi-2"/>
+        <label for="checkbox1" class="checkbox-label col-xs-3" id="label-wifi-2">
+          <span class="on icon-checkbox_tick" role="presentation"><span class="sr-only">on</span></span>
+          <span class="off icon-delete" role="presentation"><span class="sr-only">off</span></span>
+        </label>
+        </div>
+
+        <div class="form-group toggle row">
+        <label for="checkbox3" class="col-md-3 col-xs-8" id="label-bluetooth-1">Bluetooth</label>
+        <input class="checkbox success sr-only" id="checkbox3" type="checkbox" aria-labelledby="label-bluetooth-1 label-bluetooth-2"/>
+        <label for="checkbox3" class="checkbox-label col-xs-3" id="label-bluetooth-2">
+          <span class="on icon-checkbox_tick" role="presentation"><span class="sr-only">on</span></span>
+          <span class="off icon-delete" role="presentation"><span class="sr-only">off</span></span>
+        </label>
+        </div>
+
+        <div class="form-group toggle row">
+        <label for="checkbox2" class="col-md-3 col-xs-8" id="label-wifi-3">WiFi</label>
+        <input class="checkbox sr-only" id="checkbox2" type="checkbox" aria-labelledby="label-wifi-3 label-wifi-4"/>
+        <label for="checkbox2" class="checkbox-label rounded col-xs-3" id="label-wifi-4" style="width: 78px;">
+          <span class="on">On</span>
+          <span class="off">Off</span>
+        </label>
+        </div>
+
+        <div class="form-group toggle row">
+        <label for="checkbox4" class="col-md-3 col-xs-8" id="label-bluetooth-3">Bluetooth</label>
+        <input class="checkbox success sr-only" id="checkbox4" type="checkbox" checked aria-labelledby="label-bluetooth-3 label-bluetooth-4"/>
+        <label for="checkbox4" class="checkbox-label rounded col-xs-3" id="label-bluetooth-4" style="width: 126px;">
+            <span class="on">Activé</span>
+          <span class="off">Désactivé</span>
+        </label>
+        </div>
+      </div>
+
+      <h3 id="three-way-toggle">3 way toggle</h3>
+      <div style="margin-left: 10px;">
+        <div class="btn-group" data-toggle="buttons" role="group">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> 1
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 2
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off"> 3
+          </label>
+        </div>
+      </div>
+        <h3>without outline</h3>
+      <div style="margin-left: 10px;">
+        <div class="btn-group no-outline" data-toggle="buttons" role="group">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option21" autocomplete="off" checked> 1
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option22" autocomplete="off"> 2
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option33" autocomplete="off"> 3
+          </label>
+        </div>
+      </div>
+    </div>
+
+      <!-- Typography
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="type">Typography<a class="doc-link" href="../css/#type" title="go to typography documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+        <!-- Headings -->
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h1>Heading 1</h1>
+              <h2>Heading 2</h2>
+              <h3>Heading 3</h3>
+              <h4>Heading 4</h4>
+              <h5>Heading 5</h5>
+              <h6>Heading 6</h6>
+              <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>Example body text</h2>
+              <p>Nullam quis risus eget <a href="#">urna mollis ornare</a>
+ vel eu leo. Cum sociis natoque penatibus et magnis dis parturient
+montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+vehicula.</p>
+              <p><small>This line of text is meant to be treated as fine print.</small></p>
+              <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+              <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+              <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>Emphasis classes</h2>
+              <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+              <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+              <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+              <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+              <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Blockquotes -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 id="type-blockquotes">Blockquotes</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="bs-component">
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bs-component">
+              <blockquote class="pull-right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Forms
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="forms">Forms<a class="doc-link" href="../css/#forms" title="go to forms documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+        <!--<div class="row">
+          <div class="col-lg-6"> -->
+            <div class="well bs-component">
+              <form class="form-horizontal" action="#">
+                <fieldset>
+                  <legend>Legend</legend>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                      <input class="form-control" id="inputEmail" placeholder="Email" type="text">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                    <div class="col-lg-10">
+                      <input class="form-control" id="inputPassword" placeholder="Password" type="password">
+                      <div>
+                          <input type="checkbox" class="o-checkbox" id="idChk1">
+                          <label for="idChk1">Orange checkbox unchecked</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" class="o-checkbox" id="idChk2" disabled="disabled">
+                          <label for="idChk2">Orange checkbox unchecked disabled</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" class="o-checkbox" id="idChk3" checked>
+                          <label for="idChk3">Orange checkbox checked </label>
+                      </div>
+                      <div>
+                          <input type="checkbox" class="o-checkbox" id="idChk4"  disabled="disabled" checked>
+                          <label for="idChk4">Orange checkbox checked disabled</label>
+                      </div>
+                      <div>
+                          <input type="checkbox"  class="o-checkbox o-checkbox-right" id="idChk5">
+                          <label for="idChk5">Orange checkbox with label before</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+                    <div class="col-lg-10">
+                      <textarea class="form-control" rows="3" id="textArea"></textarea>
+                      <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-offset-2 col-lg-10">
+                      <div>
+                          <input name="optionsRadiosOrange" id="optionsRadiosOrange1" value="option1" checked="checked" type="radio" class="o-radio">
+                        <label for="optionsRadiosOrange1">
+                          Orange radio checked
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsRadiosOrange" id="optionsRadiosOrange2" value="option2" type="radio" class="o-radio">
+                        <label for="optionsRadiosOrange2">
+                          Orange radio unchecked
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsRadiosOrange" id="optionsRadiosOrange5" value="option5" type="radio" class="o-radio o-radio-right">
+                        <label for="optionsRadiosOrange5">
+                          Orange radio align right
+                        </label>
+                      </div>
+                        <div>
+                          <input name="optionsRadiosOrange2" id="optionsRadiosOrange3" value="option4" checked="checked" type="radio" class="o-radio" disabled>
+                        <label for="optionsRadiosOrange3">
+                          Orange radio checked disabled
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsRadiosOrange2" id="optionsRadiosOrange4" value="option4" type="radio" class="o-radio" disabled>
+                        <label for="optionsRadiosOrange4">
+                          Orange radio unchecked disabled
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label">Orange mobile switch</label>
+                    <div class="col-lg-10">
+                      <div>
+                          <input name="optionsSwitchOrange" id="optionsSwitchOrange1" value="option1" checked="checked" type="radio" class="o-radio o-mobile-switch o-mobile-switch-check">
+                        <label for="optionsSwitchOrange1">
+                          Orange switch check
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsSwitchOrange" id="optionsSwitchOrange2" value="option2" type="radio" class="o-radio o-mobile-switch o-mobile-switch-cross">
+                        <label for="optionsSwitchOrange2">
+                          Orange switch cross
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsSwitchOrange3" id="optionsSwitchOrange5" value="option5" type="radio" class="o-radio o-mobile-switch o-mobile-switch-check o-radio-right">
+                        <label for="optionsSwitchOrange5">
+                          Orange switch align right check
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsSwitchOrange3" id="optionsSwitchOrange6" value="option5" type="radio" class="o-radio o-mobile-switch o-mobile-switch-cross o-radio-right">
+                        <label for="optionsSwitchOrange6">
+                          Orange switch align right cross
+                        </label>
+                      </div>
+                      <div>
+                        <input name="optionsSwitchOrange2" id="optionsSwitchOrange3" value="option4" checked="checked" type="radio" class="o-radio o-mobile-switch-check o-mobile-switch" disabled>
+                        <label for="optionsSwitchOrange3">
+                          Orange switch check disabled
+                        </label>
+                      </div>
+                      <div>
+                          <input name="optionsSwitchOrange2" id="optionsSwitchOrange4" value="option4" type="radio" class="o-radio  o-mobile-switch-cross o-mobile-switch" disabled>
+                        <label for="optionsSwitchOrange4">
+                          Orange switch cross disabled
+                        </label>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="form-group">
+                    <label for="select" class="col-lg-2 control-label">Select</label>
+                    <div class="col-lg-10">
+                      <select class="form-control" id="select">
+                        <option selected="selected">1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="select-multi" class="col-lg-2 control-label">Select-multi</label>
+                    <div class="col-lg-10">
+                      <select multiple="multiple" class="form-control" id="select-multi">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button type="button" class="btn btn-default">Cancel</button>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <!--
+          </div>
+          <div class="col-lg-4 col-lg-offset-1">
+              -->
+
+              <form class="bs-component" action="#">
+                <div class="form-group">
+                  <label class="control-label" for="focusedInput">Focused input</label>
+                  <input class="form-control" id="focusedInput" value="This is focused..." type="text">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="disabledInput">Disabled input</label>
+                  <input class="form-control" id="disabledInput" disabled="disabled" type="text">
+                </div>
+
+                <div class="form-group has-warning">
+                  <label class="control-label" for="inputWarning">Input warning</label>
+                  <input class="form-control" id="inputWarning" type="text">
+                </div>
+
+                <div class="form-group has-error top">
+                  <label class="control-label" for="inputError">Input error</label>
+                  <input class="form-control" id="inputError" type="text">
+                  <span class="form-control-message">This is an error message on top</span>
+                </div>
+
+                <div class="form-group has-error">
+                  <label class="control-label" for="inputError">Input error</label>
+                  <input class="form-control" id="inputError" type="text">
+                  <span class="form-control-message">This is an error message below input</span>
+                </div>
+
+                <div class="form-group has-error right">
+                  <label class="control-label" for="inputError">Input error</label>
+                  <input class="form-control" id="inputError" type="text" style="width: 40%;">
+                  <span class="form-control-message">This is an error message to the right</span>
+                </div>
+
+                <div class="form-group has-success">
+                  <label class="control-label" for="inputSuccess">Input success</label>
+                  <input class="form-control" id="inputSuccess" type="text">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputLarge">Large input</label>
+                  <input class="form-control input-lg" id="inputLarge" type="text">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputDefault">Default input</label>
+                  <input class="form-control" id="inputDefault" type="text">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputSmall">Small input</label>
+                  <input class="form-control input-sm" id="inputSmall" type="text">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="input-addon">Input addons</label>
+                  <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input class="form-control" type="text" id="input-addon">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Button</button>
+                    </span>
+                  </div>
+                </div>
+              </form>
+
+    <form class="form-horizontal">
+      <div class="form-group has-error">
+        <label for="inputEmail4" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-5">
+          <input class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-sm-5 form-control-message">error message</div>
+      </div>
+      <div class="form-group has-error top">
+        <label for="inputEmail5" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="inputEmail5" placeholder="Email" type="email">
+        </div>
+        <div class="col-sm-10 col-md-offset-2 form-control-message">error message</div>
+      </div>
+      <div class="form-group has-error">
+        <label for="inputPassword6" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="inputPassword6" placeholder="Password" type="password">
+        </div>
+        <div class="col-sm-10 col-sm-offset-2 form-control-message">error message</div>
+      </div>
+    </form>
+  </div>
+
+
+
+      <!-- Navs
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="nav">Navs<a class="doc-link" href="../components/#nav" title="go to navs documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 id="bs-nav-tabs">Tabs<a class="doc-link" href="../components/#nav-tabs" title="go to tabs documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#home9" data-toggle="tab">Home</a></li>
+                <li><a href="#profile9" data-toggle="tab">Profile</a></li>
+                <li class="disabled"><a>Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret" aria-hidden="true"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#dropdown1" data-toggle="tab">Action</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#dropdown2" data-toggle="tab">Another action</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="home9">
+                  <p>Raw denim you probably haven't heard of them jean
+shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
+cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
+eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia
+cillum iphone. Seitan aliquip quis cardigan american apparel, butcher
+voluptate nisi qui.</p>
+                </div>
+                <div class="tab-pane fade" id="profile9">
+                  <p>Food truck fixie locavore, accusamus mcsweeney's
+marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
+blog sartorial PBR leggings next level wes anderson artisan four loko
+farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim
+ craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo
+ nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                </div>
+                <div class="tab-pane fade" id="dropdown1">
+                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu
+before they sold out mcsweeney's organic lomo retro fanny pack lo-fi
+farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft
+ beer, iphone skateboard locavore carles etsy salvia banksy hoodie
+helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit
+cred pitchfork.</p>
+                </div>
+                <div class="tab-pane fade" id="dropdown2">
+                  <p>Trust fund seitan letterpress, keytar raw denim
+keffiyeh etsy art party before they sold out master cleanse gluten-free
+squid scenester freegan cosby sweater. Fanny pack portland seitan DIY,
+art party locavore wolf cliche high life echo park Austin. Cred vinyl
+keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS
+viral locavore cosby sweater.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 id="bs-nav-pills">Pills<a class="doc-link" href="../components/#nav-pills" title="go to pills documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <ul class="nav nav-pills">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li class="disabled"><a href="#">Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret" aria-hidden="true"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <br>
+            <div class="bs-component">
+              <ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li class="disabled"><a href="#">Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret" aria-hidden="true"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6">
+              <!-- TODO put accessibility informations (aria and others) -->
+            <h2 id="bs-nav-breadcrumbs">Breadcrumbs<a class="doc-link" href="../components/#breadcrumbs" title="go to breadcrumbs documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <nav>
+                <span class="sr-only">You are here: </span>
+                <ul class="breadcrumb">
+                  <li>Home</li>
+                </ul>
+              </nav>
+
+              <nav>
+                <span class="sr-only">You are here: </span>
+                <ul class="breadcrumb">
+                  <li><a href="#">Home</a></li>
+                  <li>Library</li>
+                </ul>
+              </nav>
+
+              <nav>
+                <span class="sr-only">You are here: </span>
+                <ul class="breadcrumb" style="margin-bottom: 5px;">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Library</a></li>
+                  <li>Data</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 id="pager">Pager<a class="doc-link" href="../components/#pagination-pager" title="go to pager documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <nav>
+                <ul class="pager">
+                  <li><a href="#"><span class="sr-only">previous</span><span aria-hidden="true" class="icon-arrow-previous"></span></a></li>
+                  <li><a href="#"><span class="sr-only">next</span><span aria-hidden="true" class="icon-arrow-next"></span></a></li>
+                </ul>
+              </nav>
+
+              <nav>
+                <ul class="pager">
+                  <li class="presentation" role="presentation">Page 2 of 10</li>
+                  <li><a href="#"><span class="sr-only">next</span><span aria-hidden="true" class="icon-arrow-previous"></span></a></li>
+                  <li><a href="#"><span class="sr-only">next</span><span aria-hidden="true" class="icon-arrow-next"></span></a></li>
+                </ul>
+              </nav>
+
+              <nav>
+                <ul class="pager">
+                  <li class="disabled previous"><a href="#"></span>Back</a></li>
+                  <li class="next"><a href="#">Next</span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 id="pagination">Pagination<a class="doc-link" href="../components/#pagination" title="go to pagination documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            Standard pagination with numbers
+            <div class="bs-component">
+                <nav>
+                    <ul class="pagination">
+                        <li class="bordered disabled"><a href="#"><span aria-hidden="true" class="icon-arrow-previous"></span><span class="sr-only">previous</span></a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li class="bordered"><a href="#"><span class="sr-only">next</span><span aria-hidden="true" class="icon-arrow-next"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Indicators
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="indicators">Indicators</h1>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Alerts<a class="doc-link" href="../components/#alerts" title="go to alerts documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <h4>Warning!</h4>
+                <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-info">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Labels<a class="doc-link" href="../components/#labels" title="go to labels documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component" style="margin-bottom: 40px;">
+              <span class="label label-default">Default</span>
+              <span class="label label-primary">Primary</span>
+              <span class="label label-success">Success</span>
+              <span class="label label-warning">Warning</span>
+              <span class="label label-danger">Danger</span>
+              <span class="label label-info">Info</span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2>Badges<a class="doc-link" href="../components/#badges" title="go to badges documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <ul class="nav nav-pills">
+                <li class="active"><a href="#">Home <span class="badge">42</span></a></li>
+                <li><a href="#">Profile <span class="badge"></span></a></li>
+                <li><a href="#">Messages <span class="badge">3</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress bars
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="progress">Progress bars<a class="doc-link" href="../components/#progress" title="go to progress bars documentation page"><span class="icon-Forward_curved_arrow"></span></a></h1>
+
+            <h3 id="progress-basic">Basic</h3>
+            <div class="bs-component">
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%;"></div>
+              </div>
+            </div>
+
+            <h3 id="progress-alternatives">Contextual alternatives</h3>
+            <div class="bs-component">
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <h3 id="progress-stacked">Stacked</h3>
+            <div class="bs-component">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 35%"></div>
+                <div class="progress-bar progress-bar-warning" style="width: 20%"></div>
+                <div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+              </div>
+            </div>
+      </div>
+
+
+      <!-- Containers
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="container">Containers</h1>
+
+            <div class="bs-component">
+              <div class="jumbotron">
+                <h2>Jumbotron<a class="doc-link" href="../components/#jumbotron" title="go to jumbotron documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+              </div>
+            </div>
+
+
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>List groups<a class="doc-link" href="../components/#list-group" title="go to list group documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <span class="badge">14</span>
+                  Cras justo odio
+                </li>
+                <li class="list-group-item">
+                  <span class="badge">2</span>
+                  Dapibus ac facilisis in
+                </li>
+                <li class="list-group-item">
+                  <span class="badge">1</span>
+                  Morbi leo risus
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <a href="#" class="list-group-item active">
+                  Cras justo odio
+                </a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in
+                </a>
+                <a href="#" class="list-group-item">Morbi leo risus
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <a href="#" class="list-group-item">
+                  <h4 class="list-group-item-heading">List group item heading</h4>
+                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                </a>
+                <a href="#" class="list-group-item">
+                  <h4 class="list-group-item-heading">List group item heading</h4>
+                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Panels<a class="doc-link" href="../components/#panels" title="go to panels documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  Basic panel
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">Panel heading</div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  Panel content
+                </div>
+                <div class="panel-footer">Panel footer</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel primary</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel success</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel warning</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel danger</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel info</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Wells<a class="doc-link" href="../components/#wells" title="go to wells documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="well">
+                Look, I'm in a well!
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="well well-sm">
+                Look, I'm in a small well!
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="well well-lg">
+                Look, I'm in a large well!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dialogs
+      ================================================== -->
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="dialogs">Dialogs</h1>
+
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-2">
+            <h2>Popovers<a class="doc-link" href="../javascript/#popovers" title="go to popovers documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <button title="" data-original-title="" type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Left</button>
+
+              <button title="" data-original-title="" type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Top</button>
+
+              <button title="" data-original-title="" type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+              sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
+
+              <button title="" data-original-title="" type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
+            </div>
+            <h2>Tooltips<a class="doc-link" href="../javascript/#tooltips" title="go to tooltips documentation page"><span class="icon-Forward_curved_arrow"></span></a></h2>
+            <div class="bs-component">
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Left</button>
+
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Top</button>
+
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Bottom</button>
+
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Right</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      <div class="bs-docs-section">
+        <h1 class="page-header" id="calendars">Calendars</h1>
+
+        <div id="dp1" class="o-calendar">
+            <div id="month-wrap" class="month-wrap">
+                <button disabled class="btn btn-default btn-prev"><span class="icon-arrow-previous" aria-hidden="true"></span></button>
+                <div id="month" class="month" role="heading" aria-live="assertive" aria-atomic="true">September 2016</div>
+                <button class="btn btn-default btn-next"><span class="icon-arrow-next" aria-hidden="true"></span></button>
+            </div>
+            <table id="cal" class="cal-table" role="grid" aria-labelledby="month" tabindex="0">
+                <thead>
+                    <tr id="weekdays">
+                    <th id="Sunday"><div title="Sunday">Su</div></th>
+                    <th id="Monday"><div title="Monday">Mo</div></th>
+                    <th id="Tuesday"><div title="Tuesday">Tu</div></th>
+                    <th id="Wednesday"><div title="Wednesday">We</div></th>
+                    <th id="Thursday"><div title="Thursday">Th</div></th>
+                    <th id="Friday"><div title="Friday">Fr</div></th>
+                    <th id="Saturday"><div title="Saturday">Sa</div></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="row1">
+                        <td class="empty">28</td>
+                        <td class="empty">29</td>
+                        <td class="empty">30</td>
+                        <td class="empty">31</td>
+                        <td id="day1" headers="row1 Thursday" role="gridcell" aria-selected="false">1</td>		<td id="day2" headers="row1 Friday" role="gridcell" aria-selected="false">2</td>		<td id="day3" headers="row1 Saturday" role="gridcell" aria-selected="false">3</td>	</tr>
+                    <tr id="row1">
+                        <td id="day4" headers="row2 Sunday" role="gridcell" aria-selected="false" class="disabled">4</td>		<td id="day5" headers="row2 Monday" role="gridcell" aria-selected="false" class="disabled">5</td>		<td id="day6" headers="row2 Tuesday" role="gridcell" aria-selected="false" class="disabled">6</td>		<td id="day7" headers="row2 Wednesday" role="gridcell" aria-selected="false" class="disabled">7</td>		<td id="day8" headers="row2 Thursday" role="gridcell" aria-selected="false" class="disabled">8</td>		<td id="day9" headers="row2 Friday" role="gridcell" aria-selected="false" class="disabled">9</td>		<td id="day10" headers="row2 Saturday" role="gridcell" aria-selected="false" class="disabled">10</td>	</tr>
+                    <tr id="row2">
+                        <td id="day11" headers="row3 Sunday" role="gridcell" aria-selected="false">11</td>		<td id="day12" headers="row3 Monday" role="gridcell" aria-selected="false">12</td>		<td id="day13" headers="row3 Tuesday" role="gridcell" aria-selected="false">13</td>		<td id="day14" headers="row3 Wednesday" role="gridcell" aria-selected="false">14</td>		<td id="day15" headers="row3 Thursday" role="gridcell" aria-selected="false">15</td>		<td id="day16" headers="row3 Friday" role="gridcell" aria-selected="false">16</td>		<td id="day17" headers="row3 Saturday" role="gridcell" aria-selected="false">17</td>	</tr>
+                    <tr id="row3">
+                        <td id="day18" headers="row4 Sunday" role="gridcell" aria-selected="false">18</td>		<td id="day19" class="today" headers="row4 Monday" role="gridcell" aria-selected="true">19</td>		<td id="day20" headers="row4 Tuesday" role="gridcell" aria-selected="false">20</td>		<td id="day21" headers="row4 Wednesday" role="gridcell" aria-selected="false">21</td>		<td id="day22" headers="row4 Thursday" role="gridcell" aria-selected="false">22</td>		<td id="day23" headers="row4 Friday" role="gridcell" aria-selected="false">23</td>		<td id="day24" headers="row4 Saturday" role="gridcell" aria-selected="false">24</td>	</tr>
+                    <tr id="row4">
+                        <td id="day25" headers="row5 Sunday" role="gridcell" aria-selected="false">25</td>		<td id="day26" headers="row5 Monday" role="gridcell" aria-selected="false">26</td>		<td id="day27" headers="row5 Tuesday" role="gridcell" aria-selected="false">27</td>		<td id="day28" headers="row5 Wednesday" role="gridcell" aria-selected="false">28</td>		<td id="day29" headers="row5 Thursday" role="gridcell" aria-selected="false">29</td>		<td id="day30" headers="row5 Friday" role="gridcell" aria-selected="false">30</td>		<td class="empty">1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+
+      <div id="source-modal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title">Source Code</h4>
+            </div>
+            <div class="modal-body">
+              <pre></pre>
+            </div>
+          </div>
+        </div>
+      </div>

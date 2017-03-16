@@ -1,0 +1,30 @@
+{
+
+    "title":"Veuillez remplir la formulaire",
+    "lastName":{
+        "title":"Nom de famille",
+        "content":"Nom",
+        "helpInfo":"Veuillez remplir votre nom."
+    },
+    "degree":{
+        "title":"Civil",
+        "content_M":"M",
+        "content_MME":"Mme"
+    },
+    "phone":{
+        "title":"Numéro de téléphone",
+        "content":"exp:0606060606",
+        "helpInfo":"numéro de téléphone doit être composé de 10 chiffres."
+    },
+    "optionSMS":{
+        "title":"Option SMS",
+        "content_true":"Je veux être informé par SMS",
+        "content_false":"Je ne veux par être informé par SMS"
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,19 @@
+{
+
+    "success":{
+        "controlId":"formValidationSuccess2",
+        "validationState":"success"
+    },
+    "error":{
+        "controlId":"formValidationError2",
+        "validationState":"error"
+    },
+    "null":{
+        "controlId":"formValidationNull",
+        "validationState":""
+    }
+    
+
+
+
+}

@@ -1,0 +1,62 @@
+
+  <h2 id="local1">Default local navigation</h2>
+  <p>Wrap your <code>ul</code> list in a <code>nav</code> tag with <code>.container</code> class. Use <code>hr</code> tag on top and bottom outside the de <code>.container</code>. Wrap the whole in a <code>.o-nav-local</code> container.</p>
+  <div class="bs-example" >
+      <div class="o-nav-local">
+        <hr aria-hidden="true">
+        <nav class="container">
+            <a class="visible-xs-block local-select" data-toggle="collapse" href="#localNav1" aria-haspopup="true">target</a>
+            <ul class="nav nav-local collapse" id="localNav1">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+        </nav>
+        <hr aria-hidden="true">
+    </div>
+  </div>
+{% highlight html %}
+    <div class="o-nav-local">
+        <hr aria-hidden="true">
+        <nav class="container">
+            <a class="visible-xs-block local-select" data-toggle="collapse" href="#localNav1" aria-haspopup="true">target</a>
+            <ul class="nav nav-local collapse" id="localNav1">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+        </nav>
+        <hr aria-hidden="true">
+    </div>
+{% endhighlight %}
+
+<h2 id="local1">Inversed local navigation</h2>
+  <p>Simply add <code>.inverse</code> class to your <code>.o-nav-local</code> container.</p>
+  <div class="bs-example" style="background-color: #000;">
+      <div class="o-nav-local inverse">
+        <hr aria-hidden="true">
+        <nav class="container">
+            <a class="visible-xs-block local-select" data-toggle="collapse" href="#localNav1" aria-haspopup="true">target</a>
+            <ul class="nav nav-local collapse" id="localNav1">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+        </nav>
+        <hr aria-hidden="true">
+    </div>
+  </div>
+{% highlight html %}
+    <div class="o-nav-local inverse">
+        <hr aria-hidden="true">
+        <nav class="container">
+            <a class="visible-xs-block local-select" data-toggle="collapse" href="#localNav1" aria-haspopup="true">target</a>
+            <ul class="nav nav-local collapse" id="localNav1">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+        </nav>
+        <hr aria-hidden="true">
+    </div>
+{% endhighlight %}

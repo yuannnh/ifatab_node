@@ -90,6 +90,7 @@ class ClientForm extends React.Component {
 
         return result;
     }
+    
     sendRequest(dataToSend){
         console.log("I will send a request to GDFA server");
         console.log(jQuery.isPlainObject(dataToSend).toString());
@@ -99,7 +100,7 @@ class ClientForm extends React.Component {
             contentType:'application/json',
             //dataType: 'application/json',
             data: dataToSend,
-            headers:{'Access-Control-Allow-Origin':'*'},
+            //headers:{'Access-Control-Allow-Origin':'*'},
             cache: false,
             success: function(info) {
                 console.log(info)
@@ -111,6 +112,29 @@ class ClientForm extends React.Component {
         
 
     }
+    /*
+    sendRequest(dataToSend){
+        console.log("I will send a request to GDFA server");
+        console.log(jQuery.isPlainObject(dataToSend).toString());
+        $.ajax({
+            url: 'http://localhost:8081/areas',
+            type: 'GET',
+            //contentType:'application/json',
+            //dataType: 'application/json',
+            //data: dataToSend,
+            //headers:{'Access-Control-Allow-Origin':'*'},
+            cache: false,
+            success: function(info) {
+                console.log(info)
+            }.bind(this),
+            error: function(xhr, status, err) {
+                console.log(err.toString());
+            }.bind(this)
+        });
+        
+
+    }
+    */
     handleSubmit(e){
         e.preventDefault();
         if(this.checkParameter())
